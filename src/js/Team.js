@@ -18,6 +18,5 @@ export default class Team {
     for (const character of this.members) {
       yield character;
     }
-    return;
   }
 }
